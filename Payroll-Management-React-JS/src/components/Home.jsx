@@ -4,6 +4,9 @@ import { useNavigate } from 'react-router';
 export default function Home() {
   const navigate = useNavigate();
 
+  const theme = "Lets Discuss new theme here";
+  console.log(theme);
+
   return (
     <div className='container'>
       <div className="list-of-menus">
