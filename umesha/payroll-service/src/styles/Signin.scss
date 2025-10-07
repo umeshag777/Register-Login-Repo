@@ -1,0 +1,85 @@
+.sigin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../assets/image10.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 97vh;
+  }
+  
+  .sigin-data {
+    // background: rgba(0, 69, 32, 0.86); 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px; 
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input {
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 220px;
+  }
+  
+  .password-label {
+    position: relative;
+    width: 100%; 
+  }
+
+  .eye-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-100%);
+    cursor: pointer;
+    color: black;
+  }
+
+  button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #029f39;
+  }
+
+  .links-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 10px; 
+  }
+  
+  .links-container a {
+    color: #fff; 
+    text-decoration: none;
+
+    &:hover {
+        color: red;
+    }
+  }
+  
+  .links-container .forgot-password {
+    margin-left: 0px; 
+  }
